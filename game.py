@@ -103,10 +103,10 @@ while running:
 
     # Spaceship
     if left_pressed:
-        ship_x -= 8
+        ship_x -= 10
 
     if right_pressed:
-        ship_x += 8
+        ship_x += 10
 
     # Projectile movement
     # Reverse iteration needed to handle each projectile correctly
