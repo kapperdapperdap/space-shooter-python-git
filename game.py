@@ -134,6 +134,7 @@ while running:
                     # Alien is hit
                     projectiles.remove(projectile)
                     aliens.remove(alien)
+                    score += 1
 
                     # No further aliens can be hit by this projectile 
                     # so skip to the next projectile 
